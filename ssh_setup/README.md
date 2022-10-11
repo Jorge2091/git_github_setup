@@ -4,15 +4,8 @@
 ## What is ssh
 ssh(secure shel) is a network protocol that gives a secure way for 2 computers to communicated with one another. For this explaining, the two connections will be from local host computer and the GitHub server.
 ## How to setup ssh
-<style>
-img {
-float:left;
-margin-right: 15px;
-}
-p {
-text-align: justify;
-</style>
-<div><img src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" width="500"/></div>
+
+<div><img src="https://git-scm.com/images/logos/downloads/Git-Logo-2Color.png"/></div>
 <p> The first step is to download git bash. This can be done using the fallowing link https://git-scm.com/downloads and then choosing your operating system.
 git bash is a standalone application that works similar to your shell/terminal.</p>
 
