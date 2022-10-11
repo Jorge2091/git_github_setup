@@ -51,3 +51,5 @@ in the code above, the <name.git> can be replaced with the name of your reposito
 - now let's send this new data to GitHub
 - `git push -origin main`
 - `git status` to show all files that will be sent
+
+### heading made in github
