@@ -44,4 +44,4 @@ git push -u origin main
 ```
 in the code above, the README.md can be replaced with a " . " to add all folders inside.
 in the code above, the <name.git> can be replaced with the name of your repository, this can be find as the title of your repository which is placed on the top left of the page as shown below
-
+.
