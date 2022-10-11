@@ -58,12 +58,43 @@
 
 # String Methods are available
 # use var = string "asfdsfaasdfsadfsadf                  "
-white_space = "lots of spaces at the end                 "
-print(len(white_space))
-# Strip() removes the white spaces
-print(len(white_space.strip()))
-example_text = "here's sOme text wIth lOt's of text"
-print(example_text.count("text"))
-print(example_text.lower()) # makes all text in string is lower case
-print(example_text.capitalize())
-print(example_text.replace(" wIth",","))
+# white_space = "lots of spaces at the end                 "
+# print(len(white_space))
+# # Strip() removes the white spaces
+# print(len(white_space.strip()))
+# example_text = "here's sOme text wIth lOt's of text"
+# print(example_text.count("text"))
+# print(example_text.lower()) # makes all text in string is lower case
+# print(example_text.capitalize())
+# print(example_text.replace(" wIth",","))
+
+# User data input
+# first_name = "Jorge"
+# last_name = "Reyes"
+# salary = 40
+# print(first_name)
+# print(last_name)
+# print(first_name + last_name)
+# print(first_name + " " + last_name)
+
+# print(first_name + " " + last_name + str(salary)) # cast int to string using str()
+#
+# # F-string
+# print("hello {} {}".format(first_name, salary))
+first_name = input("What is your first name?")
+last_name = input("What is your last name? ")
+UK_resident = input("Are you a UK resident? YES or NO  ")
+house_number = input("What is your house number? ")
+street_name = input("What is the street name of your house? ")
+postcode = input("What is the postcode of your house? ")
+DOB = input("What is your date of birth in the format ddmmyy ")
+course_name = input("What is the course you are taking? ")
+first_name = first_name.lower()
+first_name = first_name.capitalize()
+last_name = last_name.lower()
+last_name = last_name.capitalize()
+
+print("Hello {} {}.".format(first_name, last_name))
+print("You are a UK resident living in {} {}".format(house_number, street_name))
+print(postcode)
+print("Your date of birth is {} and you are undertaking the {} course in Sparta Global".format(DOB, course_name))

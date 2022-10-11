@@ -112,3 +112,25 @@ print(example_text.lower()) # makes all text in string is lower case
 print(example_text.capitalize())
 print(example_text.replace(" wIth",","))
 ```
+## Taking user details
+
+```python
+first_name = input("What is your first name?")
+last_name = input("What is your last name? ")
+UK_resident = input("Are you a UK resident? YES or NO  ")
+house_number = input("What is your house number? ")
+street_name = input("What is the street name of your house? ")
+postcode = input("What is the postcode of your house? ")
+DOB = input("What is your date of birth in the format ddmmyy ")
+course_name = input("What is the course you are taking? ")
+first_name = first_name.lower()
+first_name = first_name.capitalize()
+last_name = last_name.lower()
+last_name = last_name.capitalize()
+
+print("Hello {} {}.".format(first_name, last_name))
+print("You are a UK resident living in {} {}".format(house_number, street_name))
+print(postcode)
+print("Your date of birth is {} and you are undertaking the {} course in Sparta Global".format(DOB, course_name))
+
+```
