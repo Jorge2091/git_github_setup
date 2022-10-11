@@ -20,6 +20,7 @@ mkdir .ssh
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 where `your_email@example.com` is the email of your github where you have access to the repository. please note, this is the example code for windows only. if using linux or mac, please click <a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#adding-your-ssh-key-to-the-ssh-agent"> here</a> and choose the correct operating system. <br/>This command will generate a new and unique key for you to use as a secure connection.
+
 4. just press `enter` to all options they may ask such as passphrase or directory as it is not important. 
 
 #### How to connect to GitHub
@@ -44,4 +45,6 @@ git push -u origin main
 ```
 in the code above, the README.md can be replaced with a " . " to add all folders inside.
 in the code above, the <name.git> can be replaced with the name of your repository, this can be find as the title of your repository which is placed on the top left of the page as shown below
-.
+
+- `git add filename` or `git add .` the . means push everything from current location
+- 
