@@ -42,3 +42,26 @@ DOB = input("what is your date of birth in format ddmmyy:")
 course_name = input("what is the course you taking")
 UK_resident = input("are you a UK resident? YES or NO")
 ```
+
+### Intro to Data types & Operators
+- `+ - * /`
+
+##### Comparison Operators
+- `<` less than
+- `>` greater than
+- `==` True or False
+- `>=` greater than or equal 
+- `<=` less than or equal
+
+```python
+a=24
+b=16
+
+print(a+b) # outcome added value of a & b
+print(a-b) # outcome subtracted b from a
+
+# comparison
+print(a >b) # True
+print(a<b) # False
+print(a == b) # False
+```
