@@ -47,4 +47,7 @@ in the code above, the README.md can be replaced with a " . " to add all folders
 in the code above, the <name.git> can be replaced with the name of your repository, this can be find as the title of your repository which is placed on the top left of the page as shown below
 
 - `git add filename` or `git add .` the . means push everything from current location
-- 
+- `git commit -m "new markdown guide added"`
+- now let's send this new data to GitHub
+- `git push -origin main`
+- `git status` to show all files that will be sent
