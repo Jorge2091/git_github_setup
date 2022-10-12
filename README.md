@@ -176,3 +176,16 @@ print(type(essentials))
 essentials[0] = "coffee" # not possible and will come an error
 print(essentials) 
 ```
+## Practice code
+
+Using the link https://www.w3schools.com/python/exercise.asp made by W3Schools which is a great tool to practice coding or a easy to understand docummentary for Python. In the Link above, you can check practice exercise to correct some code and instantly be able to see if you are correct.
+<br/> It can test you in many areas as shown in the right side of the website showing the tittle being tested. For example, in the below code shown as the first question is a test if you remember how to print a string and what that code may be.
+```python
+[ ]("hello World")
+```
+The answer above would be `print("hello world")`
+<br/> Another test would be in incorrect characters variable name. For example the code below shows a number inside a variable name, which is not possible to use for a variable name, this also goes with the dash as that is also an illegal variable name.
+```python
+2my-first_name = "john" # answer is my_first_name = "john"
+```
+
